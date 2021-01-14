@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
     'VALID_ARCHS' =>  valid_archs.join(' '),
   }
   s.source       = { :git => "https://github.com/JamesChenGithub/TCICSDK_ReplayKitExt.git", :tag => "#{s.version}" }
-  s.vendored_frameworks = 'TXLiteAVSDK_ReplayKitExt.framework'
+  s.vendored_frameworks = ['TXLiteAVSDK_ReplayKitExt.framework', 'TCICScreenKit.framework']
 end

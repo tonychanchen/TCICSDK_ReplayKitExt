@@ -22,4 +22,4 @@ git push origin main
 git tag "$1"
 git push origin --tags
 
-pod trunk push ${POD_SDK_NAME}.podspecc --allow-warnings
+pod trunk push ${POD_SDK_NAME}.podspec --allow-warnings

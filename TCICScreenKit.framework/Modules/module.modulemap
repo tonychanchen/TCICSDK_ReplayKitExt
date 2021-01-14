@@ -1,0 +1,6 @@
+framework module TCICScreenKit {
+  umbrella header "TCICScreenKit.h"
+
+  export *
+  module * { export * }
+}

@@ -3,7 +3,7 @@
 *
 * Function: 腾讯云 ReplayKit 录屏功能在Extension中的主要接口类
 *
-* Version: 8.3.9884
+* Version: 8.4.9944
 */
 
 #import <Foundation/Foundation.h>

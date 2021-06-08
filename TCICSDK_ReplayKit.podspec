@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "TCICSDK_ReplayKit"
-  s.version      = ""
+  s.version      = "更新8.7.10102"
   s.summary      = "TCICSDK_ReplayKit"
   s.description  = <<-DESC
                       腾讯云互动教育录屏插件

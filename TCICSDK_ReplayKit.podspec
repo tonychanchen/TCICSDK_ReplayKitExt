@@ -19,6 +19,8 @@ Pod::Spec.new do |s|
   s.xcconfig = {
     'VALID_ARCHS' =>  valid_archs.join(' '),
   }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.source       = { :git => "https://github.com/JamesChenGithub/TCICSDK_ReplayKitExt.git", :tag => "#{s.version}" }
   s.vendored_frameworks = ['TXLiteAVSDK_ReplayKitExt.framework', 'TCICScreenKit.framework']
 end

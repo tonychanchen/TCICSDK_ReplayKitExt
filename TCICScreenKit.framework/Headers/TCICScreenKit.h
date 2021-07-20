@@ -5,10 +5,11 @@
 //  Created by 陈耀武 on 2021/1/13.
 //  Copyright © 2021 陈耀武. All rights reserved.
 //
-// TCICScreenKitVersion : 1.0.0.1939
-// TCICScreenKitGitCommitID : 06517e373307ecdc8b0ff65b496b841eea463104
+// TCICScreenKitVersion : 1.0.0.2026
+// TCICScreenKitGitCommitID : f7ec9a855da68fb39e505310158010709859886a
 
 #import <Foundation/Foundation.h>
+#import <ReplayKit/ReplayKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -36,6 +37,10 @@ NS_ASSUME_NONNULL_BEGIN
 */
 - (void)onScreenKitFinished;
 
+/**
+* 在- (void)processSampleBuffer中调用，通知TCICSDK处理视频帧的设备方向
+*/
+- (void)processSampleBuffer:(CMSampleBufferRef)sampleBuffer withType:(RPSampleBufferType)sampleBufferType API_AVAILABLE(ios(11.1));
 @end
 
 NS_ASSUME_NONNULL_END

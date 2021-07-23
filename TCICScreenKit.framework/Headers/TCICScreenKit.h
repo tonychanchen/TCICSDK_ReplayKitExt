@@ -5,8 +5,8 @@
 //  Created by 陈耀武 on 2021/1/13.
 //  Copyright © 2021 陈耀武. All rights reserved.
 //
-// TCICScreenKitVersion : 1.0.0.2083
-// TCICScreenKitGitCommitID : 810826598407793f18b24b8ac362c0b3ea0df4f7
+// TCICScreenKitVersion : 1.0.0.2084
+// TCICScreenKitGitCommitID : e9da813382cce54970c5e4528d8a15ec30410db2
 
 #import <Foundation/Foundation.h>
 #import <ReplayKit/ReplayKit.h>

@@ -3,8 +3,12 @@
 *
 * Function: 腾讯云 ReplayKit 录屏功能在Extension中的主要接口类
 *
-* Version: 8.9.10382
+* Version: 9.2.10637
 */
+
+/// @defgroup TXReplayKitExt_ios TXReplayKitExt
+/// 腾讯云 ReplayKit 录屏功能在Extension中的主要接口类
+/// @{
 
 #import <Foundation/Foundation.h>
 #import <CoreMedia/CoreMedia.h>
@@ -83,3 +87,4 @@ API_AVAILABLE(ios(11.0))
 @end
 
 NS_ASSUME_NONNULL_END
+/// @}

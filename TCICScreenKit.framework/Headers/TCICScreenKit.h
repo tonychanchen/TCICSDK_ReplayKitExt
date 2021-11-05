@@ -5,14 +5,15 @@
 //  Created by 陈耀武 on 2021/1/13.
 //  Copyright © 2021 陈耀武. All rights reserved.
 //
-// TCICScreenKitVersion : 1.0.0.2916
-// TCICScreenKitGitCommitID : 8caace9f4e6ec77da00f59c3d74bec7ca5349a92
+// TCICScreenKitVersion : 1.0.0.3278
+// TCICScreenKitGitCommitID : c18d963d4c584b261735fa143ce0bca0000d39f0
 
 #import <Foundation/Foundation.h>
 #import <ReplayKit/ReplayKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
+API_AVAILABLE(ios(11.0))
 @interface TCICScreenKit : NSObject
 
 + (instancetype)sharedScreenKit;

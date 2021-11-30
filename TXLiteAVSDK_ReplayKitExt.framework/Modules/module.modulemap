@@ -1,4 +1,4 @@
-framework module TXLiteAVSDK_ReplayKitExt {
-    umbrella header "TXLiteAVSDK_ReplayKitExt.h"
+module TXLiteAVSDK_ReplayKitExt {
+    umbrella header "Headers/TXLiteAVSDK_ReplayKitExt.h"
     export *
 }

@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "TCICSDK_ReplayKit"
-  s.version      = "1.0.0.37"
+  s.version      = "1.0.0.38"
   s.summary      = "TCICSDK_ReplayKit"
   s.description  = <<-DESC
                       腾讯云互动教育录屏插件
@@ -23,4 +23,6 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.source       = { :git => "https://github.com/JamesChenGithub/TCICSDK_ReplayKitExt.git", :tag => "#{s.version}" }
   s.vendored_frameworks = ['TXLiteAVSDK_ReplayKitExt.framework', 'TCICScreenKit.framework']
+  s.frameworks = 'Accelerate'
+  s.libraries = 'c++'
 end

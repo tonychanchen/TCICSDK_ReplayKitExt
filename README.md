@@ -32,3 +32,4 @@
 | 20211201 | 1.0.0.37 | 更新TCICScreenKit |
 | 20220217 | 1.0.0.38 | 添加依赖库 |
 | 20220823 | 1.0.0.39 | 更新TXLiteAVSDK_ReplayKitExt.framework |
+| 20220823 | 1.0.0.39 | 更新TXLiteAVSDK_ReplayKitExt.framework |
